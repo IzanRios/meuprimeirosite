@@ -1,0 +1,25 @@
+body {
+    background-color: deeppink;
+}
+header {
+    background-color: blue;
+}
+div {
+    background-color: chartreuse;
+}
+nav {
+    background-color: crimson;
+}
+main {
+    background-color: darkorchid;
+}
+section {
+    background-color: darkgreen;
+}
+footer {
+    background-color: darkorange;
+}
+.logon{
+
+width: 5%;
+}
