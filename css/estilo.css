@@ -1,14 +1,16 @@
 body {
     background-color: rgb(0, 0, 0);
+    font-family: "EB Garamond", serif;
 }
 header {
     background-color: rgb(55, 55, 184);
+    padding: 3%;
 }
 div {
     background-color: rgb(0, 14, 143);
 }
 nav {
-    background-color: rgb(55, 55, 184);
+    background-color: rgb(0, 14, 143);
 }
 main {
     background-color: rgb(0, 0, 0);
@@ -25,8 +27,56 @@ footer {
 }
 .logon{
 
-width: 3%;
+width: 6%;
 }
 .titulos{
-    text-align: ;
+    text-align: center;
+    line-height: 3;
+    font-weight: bold;
+}
+.cabecalho{
+    padding: 3%;
+}
+.rodape{
+    padding: 3%;
+}
+h1,h2{
+    line-height: 3;
+}
+.topicos{
+    text-align: center;
+}
+p{
+    line-height: 1.5;
+    font-size: 1.2em;
+}
+ul li{
+    line-height: 1.5;
+    font-size: 1.2em;
+}
+h1{
+    font-size: 2em;
+}
+h2{
+    font-size: 1.5em;
+}
+table{
+    border-collapse: collapse;
+    width: 80%;
+    font-size: 1.2em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+}
+td,th{
+    border: 5px dashed #f00
+    padding 1.5%;
+}
+
+/* essa faz uma linha cor sim cor não */
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+.Imagens{
+    align-items: center;
 }
