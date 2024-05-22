@@ -26,8 +26,7 @@ footer {
     padding: 3%;
 }
 .logon{
-
-width: 6%;
+    width: 6%;
 }
 .titulos{
     text-align: center;
@@ -69,14 +68,24 @@ table{
     margin-bottom: 2%;
 }
 td,th{
-    border: 5px dashed #f00
+    border: 1px solid rgb(0, 0, 0)
     padding 1.5%;
+}
+td{
+    border: 2px solid black
+}
+th{
+    border: 3px solid black
 }
 
 /* essa faz uma linha cor sim cor não */
 tr:nth-child(even) {
-    background-color: #dddddd;
+    background-color: rgb(126, 126, 255);
 }
-.Imagens{
+img{
+    width: 30%;
     align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
