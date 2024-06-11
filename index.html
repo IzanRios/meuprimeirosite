@@ -34,6 +34,48 @@
             font-weight: bold;
             clear: both;
         }
+        .linha{
+            display: flex;
+            flex-flow: row wrap;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .col-3{
+            width: 25%;
+        }
+        .col-3 p{
+            font-size: 1rem;
+            text-align: center;
+        }
+        .imggaleria{
+            width: 90%;
+            margin-left: 1%;
+            margin-right: 1%;
+        }
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .card {
+            width: calc(33.33% - 20 px); /* 3 cards por linha */
+            margin-bottom: 20px;
+            background-color: rgb(0, 14, 143);
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        @media screen and (max-width: 768px) {
+            .card {
+                width: calc(50% - 20px); /* 2 cards por linha em telas médias */
+            }
+        }
+            
+        @media screen and (max-width: 480px) {
+            .card {
+                width: calc(100% - 20px); /* 1 card por linha em telas pequenas (celulares) */
+            }
+        }
     </style>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/estilo.css"> 
@@ -180,32 +222,93 @@
             </table>
         </section>
         <section>
-            <div>
-                <div>
-                    <img class="imggaleria" src="img/ney1.jpg" alt="ney1">
+            <div class="cards">
+                <div class="card">
+                    <div>
+                        <p>Santos</p>
+                    </div>
                 </div>
-                <div>
-                    <img class="imggaleria" src="img/ney2.jpeg" alt="ney2">
+                <div class="card">
+                    <div>
+                        <p>Barcelona</p>
+                    </div>
                 </div>
-                <div>
-                    <img class="imggaleria" src="img/ney3.webp" alt="ney3">
+                <div class="card">
+                    <div>
+                        <p>Paris Saint-Germain</p>
+                    </div>
                 </div>
-                <div>
-                    <img class="imggaleria" src="img/ney4.jfif" alt="ney4">
+                <div class="card">
+                    <div>
+                        <p>Al-Hilal</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <p>Seleção Brasileira</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <p>Total</p>
+                    </div>
                 </div>
             </div>
+        </section>
+        <section>
             <div>
-                <div>
-                    <img class="imggaleria" src="img/ney5.jpg" alt="ney5">
+                <h2 class="titulos"> Galeria de Imagens</h2>
+            </div>
+            <div class="linha">
+                <div class="col-3">
+                    <div>
+                        <img class="imggaleria" src="img/ney1.jpg" alt="ney1">
+                    </div>
+                    <p>Contratado pelo Al-Hilal</p>
                 </div>
-                <div>
-                    <img class="imggaleria" src="img/ney7.jpg" alt="ney7">
+                <div class="col-3">
+                    <div>
+                        <img class="imggaleria" src="img/ney2.jpeg" alt="ney2">
+                    </div>
+                    <p>Comemoração ao título da Champions pelo Barça</p>
                 </div>
-                <div>
-                    <img class="imggaleria" src="img/ney8.jpg" alt="ney8">
+                <div class="col-3">
+                    <div>
+                        <img class="imggaleria" src="img/ney3.webp" alt="ney3">
+                    </div>
+                    <p>Derrota pelo PSG</p>
                 </div>
-                <div>
-                    <img class="imggaleria" src="img/ney6.webp" alt="ney6">
+                <div class="col-3">
+                    <div>
+                        <img class="imggaleria" src="img/ney4.jfif" alt="ney4">
+                    </div>
+                    <p>Eliminação da Copa do Mundo de 2022 pela Seleção Brasileira</p>
+                </div>
+            </div>
+            <div class="linha">
+                <div class="col-3">
+                    <div>
+                        <img class="imggaleria" src="img/ney5.jpg" alt="ney5">
+                    </div>
+                    <p>Supera Pelé em gols pela seleção</p>
+                </div>
+                <div class="col-3">
+                    <div>
+                        <img class="imggaleria" src="img/ney7.jpg" alt="ney7">
+                    </div>
+                    <p>Comemoração do título da Libertadores pelo Santos</p>
+                </div>
+                <div class="col-3">
+                    <div>
+                        <img class="imggaleria" src="img/ney8.jpg" alt="ney8">
+                    </div>
+                    <p>Comemoração do título da Copa das Confederações pelo Brasil</p>
+                </div>
+                <div class="col-3">
+                    <div>
+                        <img class="imggaleria" src="img/ney6.webp" alt="ney6">
+                    </div>
+                    <p>Comemoração do título da Copa da França pelo PSG</p>
                 </div>
             </div>
         </section>

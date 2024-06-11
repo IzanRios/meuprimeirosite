@@ -67,15 +67,16 @@ table{
     margin-right: auto;
     margin-bottom: 2%;
 }
+
 td,th{
-    border: 1px solid rgb(0, 0, 0)
+    border: 1px dashed rgb(255, 0, 0)
     padding 1.5%;
 }
 td{
-    border: 2px solid black
+    border: 3px dashed rgb(255, 0, 0)
 }
 th{
-    border: 3px solid black
+    border: 3px dashed rgb(255, 0, 0)
 }
 
 /* essa faz uma linha cor sim cor não */
