@@ -52,6 +52,31 @@
             margin-left: 1%;
             margin-right: 1%;
         }
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .card {
+            width: calc(33.33% - 20 px); /* 3 cards por linha */
+            margin-bottom: 20px;
+            background-color: rgb(0, 14, 143);
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        @media scree and (max-width: 768px) {
+            .card {
+                width: calc(50% - 20px); /* 2 cards por linha em telas médias */
+            }
+        }
+            
+        @media screen and (max-width: 480px) {
+            .card {
+                width: calc(100% - 20px); /* 1 card por linha em telas pequenas (celulares) */
+            }
+        }
+
     </style>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/estilo.css"> 
@@ -196,6 +221,40 @@
                     <td>0</td>
                 </tr>
             </table>
+        </section>
+        <section>
+            <div class="cards">
+                <div class="card">
+                    <div>
+                        <p>Santos</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <p>Barcelona</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <p>Paris Saint-Germain</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <p>Al-Hilal</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <p>Seleção Brasileira</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <p>Total</p>
+                    </div>
+                </div>
+            </div>
         </section>
         <section>
             <div>
