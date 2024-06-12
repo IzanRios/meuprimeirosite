@@ -77,6 +77,45 @@
                 width: calc(100% - 20px); /* 1 card por linha em telas pequenas (celulares) */
             }
         }
+        .container {
+            position: relative;
+        }
+        .topleft {
+            position: absolute;
+            top: 8px;
+            left: 16px;
+            font-size: 18px;
+        }
+        .topright {
+            position: absolute;
+            top: 8px;
+            right: 16px;
+            font-size: 18px;
+        }
+        .center {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            text-align: center;
+            font-size: 30px;
+        }
+        .bottomleft {
+            position: absolute;
+            bottom: 8px;
+            left: 16px;
+            font-size: 18px;
+        }
+        .bottomright {
+            position: absolute;
+            bottom: 8px;
+            right: 16px;
+            font-size: 18px;
+        }
+        .neyposition {
+            width: 100%;
+            height: auto;
+            opacity: 0.3;
+        }
 
     </style>
     <link rel="stylesheet" href="css/reset.css">
@@ -331,6 +370,16 @@
                     </div>
                     <p>Comemoração do título da Copa da França pelo PSG</p>
                 </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <img src="img/neymar.position.jpeg" alt="Ney Position" class="neyposition" width="1000" height="300">
+                    <p class="topleft">King</p>
+                    <p class="topright">Soccer</p>
+                    <p class="center">Neymar Jr</p>
+                    <p class="bottomleft">Brazilian</p>
+                    <p class="bottomright">The Best</p>
             </div>
         </section>
     </main>
