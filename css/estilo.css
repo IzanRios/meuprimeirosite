@@ -1,6 +1,7 @@
 body {
     background-image: url("../img/campo.avif");
     font-family: "EB Garamond", serif;
+    color: aliceblue;
 }
 header {
     background-color: rgba(0, 14, 143);
@@ -8,6 +9,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+   
 }
 div {
     background-color: rgba(0, 13, 153, 0.623);
@@ -16,6 +18,7 @@ nav a{
     justify-content: center;
     text-align: center;
     margin: auto;
+    color: aliceblue;
 }
 nav ul li {
     text-align: center;
@@ -35,6 +38,7 @@ main {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    padding: 2%;
 }
 section {
     background-color: rgba(0, 13, 153, 0.623);
