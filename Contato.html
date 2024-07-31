@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="#Contato">Contato</title>
+    <style>
+        .neymar{
+            margin-left: 35%;
+        }
+        .neymars{
+            margin-left: 35%;
+        }
+        .msn{
+            margin-left: 35%;
+        }
+        .neymarp{
+            margin-left: 35%;
+        }
+        .neymarb{
+            margin-left: 35%;
+        }
+        .neymarc{
+            margin-top: 0%;
+            margin-bottom: 0%;
+            margin-left: 2%;
+            margin-right: 2%;
+            width: 15%;
+            float: right;
+        }
+        .times{
+            text-align: center;
+            line-height: 3;
+            font-weight: bold;
+            clear: both;
+        }
+        .linha{
+            display: flex;
+            flex-flow: row wrap;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .col-3{
+            width: 25%;
+        }
+        .col-3 p{
+            font-size: 1rem;
+            text-align: center;
+        }
+        .imggaleria{
+            width: 90%;
+            margin-left: 1%;
+            margin-right: 1%;
+        }
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .card {
+            width: calc(33.33% - 20 px); /* 3 cards por linha */
+            margin-bottom: 20px;
+            margin-top: 20px;
+            background-color: rgb(126, 126, 255);
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        @media scree and (max-width: 768px) {
+            .card {
+                width: calc(50% - 20px); /* 2 cards por linha em telas médias */
+            }
+        }
+            
+        @media screen and (max-width: 480px) {
+            .card {
+                width: calc(100% - 20px); /* 1 card por linha em telas pequenas (celulares) */
+            }
+        }
+        .container {
+            position: relative;
+            background-color: rgb(0, 14, 143);
+        }
+        .topleft {
+            position: absolute;
+            top: 8px;
+            left: 16px;
+            font-size: 18px;
+        }
+        .topright {
+            position: absolute;
+            top: 8px;
+            right: 16px;
+            font-size: 18px;
+        }
+        .center {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            text-align: center;
+            font-size: 30px;
+        }
+        .bottomleft {
+            position: absolute;
+            bottom: 8px;
+            left: 16px;
+            font-size: 18px;
+        }
+        .bottomright {
+            position: absolute;
+            bottom: 8px;
+            right: 16px;
+            font-size: 18px;
+        }
+        .neyposition {
+            width: 100%;
+            height: auto;
+            opacity: 0.3;
+        }
+        .space{
+            margin-top: 210px;
+        }
+        
+    </style>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilo.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/njrlogo.webp" type="image/x-icon">
+</head>
+<body>
+    <header class="cabecalho">
+        <nav>
+            <a href="index.html"><img class="logon" src="img/njrlogo.webp" alt="logonjr"></a>
+            <ul>
+                <li><a href="index.html" onclick="document.getElementById('menu-toggle').click()">Início</a></li>
+                <li><a href="#">Contato</a></li>
+           </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="#Contato">
+        </section>
+    </main>
+    <footer class="rodape">
+        <p>Desenvolvido por: Ízan Rios</p>
+    </footer>
+</body>
+</html>
