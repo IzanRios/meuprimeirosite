@@ -28,15 +28,15 @@
             <h1>Concorra a uma tarde de diversão com Neymar Jr respondendo este formulário!</h1>
             <form action="/action_page.php">
                 <label for="nomec">Nome completo:</label>
-                <input type="text"><br>
+                <input type="text" placeholder="Seu nome..." required><br>
                 <label for="tel">Telefone:</label>
-                <input type="text"><br>
+                <input type="text" placeholder="(XX) XXXXX-XXXX"><br>
                 <label for="cpf">CPF:</label>
-                <input type="text"><br>
+                <input type="text" placeholder="Seu CPF..."><br>
                 <label for="email">Email:</label>
-                <input type="text"><br>
+                <input type="text" placeholder="Seu email..." required><br>
                 <label for="time">Time:</label>
-                <input type="text"><br>
+                <input type="text" placeholder="Seu time do coração..."><br>
 
                 <P>É maior de idade ?</P>
                 <input type="radio">
@@ -45,7 +45,7 @@
                 <label for="nao">Não</label><br>
                 
                 <label for="estado">Em que estado mora ?</label>
-                <select name="estado" id="estado">
+                <select name="estado" id="estado" required>
                     <option value="Acre">Acre</option>
                     <option value="Alagoas">Alagoas</option>
                     <option value="Amapá">Amapá</option>
